@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		2CC0B52527C21FF700E927A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0B52427C21FF700E927A3 /* AppDelegate.swift */; };
 		2CC0B52727C21FF700E927A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0B52627C21FF700E927A3 /* SceneDelegate.swift */; };
-		2CC0B52927C21FF700E927A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0B52827C21FF700E927A3 /* ViewController.swift */; };
 		2CC0B52C27C21FF700E927A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0B52A27C21FF700E927A3 /* Main.storyboard */; };
 		2CC0B52E27C21FF800E927A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0B52D27C21FF800E927A3 /* Assets.xcassets */; };
 		2CC0B53127C21FF800E927A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0B52F27C21FF800E927A3 /* LaunchScreen.storyboard */; };
+		2CC0B53927C2241200E927A3 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0B53827C2241200E927A3 /* PersonViewController.swift */; };
+		2CC0B53B27C227AF00E927A3 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0B53A27C227AF00E927A3 /* PersonModel.swift */; };
+		2CC0B53D27C2B1F400E927A3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0B53C27C2B1F300E927A3 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2CC0B52127C21FF700E927A3 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC0B52427C21FF700E927A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC0B52627C21FF700E927A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CC0B52827C21FF700E927A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CC0B52B27C21FF700E927A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CC0B52D27C21FF800E927A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC0B53027C21FF800E927A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC0B53227C21FF800E927A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC0B53827C2241200E927A3 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		2CC0B53A27C227AF00E927A3 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		2CC0B53C27C2B1F300E927A3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,9 @@
 		2CC0B51827C21FF700E927A3 = {
 			isa = PBXGroup;
 			children = (
+				2CC0B53A27C227AF00E927A3 /* PersonModel.swift */,
+				2CC0B53C27C2B1F300E927A3 /* DataManager.swift */,
+				2CC0B53827C2241200E927A3 /* PersonViewController.swift */,
 				2CC0B52327C21FF700E927A3 /* Contacts */,
 				2CC0B52227C21FF700E927A3 /* Products */,
 			);
@@ -58,7 +65,6 @@
 			children = (
 				2CC0B52427C21FF700E927A3 /* AppDelegate.swift */,
 				2CC0B52627C21FF700E927A3 /* SceneDelegate.swift */,
-				2CC0B52827C21FF700E927A3 /* ViewController.swift */,
 				2CC0B52A27C21FF700E927A3 /* Main.storyboard */,
 				2CC0B52D27C21FF800E927A3 /* Assets.xcassets */,
 				2CC0B52F27C21FF800E927A3 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CC0B52927C21FF700E927A3 /* ViewController.swift in Sources */,
+				2CC0B53B27C227AF00E927A3 /* PersonModel.swift in Sources */,
+				2CC0B53D27C2B1F400E927A3 /* DataManager.swift in Sources */,
 				2CC0B52527C21FF700E927A3 /* AppDelegate.swift in Sources */,
+				2CC0B53927C2241200E927A3 /* PersonViewController.swift in Sources */,
 				2CC0B52727C21FF700E927A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
