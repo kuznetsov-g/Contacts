@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C23F05E27C539270019DCC9 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23F05D27C539270019DCC9 /* PersonDetailsViewController.swift */; };
+		2C23F06027C574820019DCC9 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23F05F27C574820019DCC9 /* DetailsViewController.swift */; };
+		2C23F06227C6B71E0019DCC9 /* ContactsTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23F06127C6B71D0019DCC9 /* ContactsTabBar.swift */; };
 		2CC0B52527C21FF700E927A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0B52427C21FF700E927A3 /* AppDelegate.swift */; };
 		2CC0B52727C21FF700E927A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0B52627C21FF700E927A3 /* SceneDelegate.swift */; };
 		2CC0B52C27C21FF700E927A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0B52A27C21FF700E927A3 /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C23F05D27C539270019DCC9 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		2C23F05F27C574820019DCC9 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2C23F06127C6B71D0019DCC9 /* ContactsTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTabBar.swift; sourceTree = "<group>"; };
 		2CC0B52127C21FF700E927A3 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC0B52427C21FF700E927A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC0B52627C21FF700E927A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +50,9 @@
 		2CC0B51827C21FF700E927A3 = {
 			isa = PBXGroup;
 			children = (
+				2C23F06127C6B71D0019DCC9 /* ContactsTabBar.swift */,
+				2C23F05F27C574820019DCC9 /* DetailsViewController.swift */,
+				2C23F05D27C539270019DCC9 /* PersonDetailsViewController.swift */,
 				2CC0B53A27C227AF00E927A3 /* PersonModel.swift */,
 				2CC0B53C27C2B1F300E927A3 /* DataManager.swift */,
 				2CC0B53827C2241200E927A3 /* PersonViewController.swift */,
@@ -146,7 +155,10 @@
 			files = (
 				2CC0B53B27C227AF00E927A3 /* PersonModel.swift in Sources */,
 				2CC0B53D27C2B1F400E927A3 /* DataManager.swift in Sources */,
+				2C23F06227C6B71E0019DCC9 /* ContactsTabBar.swift in Sources */,
+				2C23F05E27C539270019DCC9 /* PersonDetailsViewController.swift in Sources */,
 				2CC0B52527C21FF700E927A3 /* AppDelegate.swift in Sources */,
+				2C23F06027C574820019DCC9 /* DetailsViewController.swift in Sources */,
 				2CC0B53927C2241200E927A3 /* PersonViewController.swift in Sources */,
 				2CC0B52727C21FF700E927A3 /* SceneDelegate.swift in Sources */,
 			);
