@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="1720" y="1134"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Person View Controller-->
         <scene sceneID="vV3-8G-ngX">
             <objects>
-                <tableViewController id="OvA-Kt-3kr" customClass="PersonViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="OvA-Kt-3kr" userLabel="Person View Controller" customClass="PersonViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="bwf-HV-5SK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="AHA-QE-75q" kind="show" identifier="contactSegue" trigger="accessoryAction" id="z7E-UF-YSj"/>
+                                    <segue destination="AHA-QE-75q" kind="show" id="Ei4-w6-kiJ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

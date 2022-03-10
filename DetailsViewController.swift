@@ -12,8 +12,14 @@ class DetailsViewController: UITableViewController {
     var persons : [Person]!
     override func viewDidLoad() {
         super.viewDidLoad()
+        if persons != nil {
+        }
     }
-
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        persons[section].fullName
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return persons.count
     }
@@ -26,10 +32,10 @@ class DetailsViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailsCell", for: indexPath)
+        
         var content = cell.defaultContentConfiguration()
-        guard let indexCell = tableView.indexPathForSelectedRow else { return cell}
-        let person = persons[indexCell.row]
-        if indexCell.row == 0 {
+        let person = persons[indexPath.section]
+        if indexPath.row == 0 {
             content.text = person.phoneNumber
         } else {
             content.text = person.mail

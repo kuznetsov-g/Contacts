@@ -18,8 +18,8 @@ class PersonDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = person.fullName
-        phoneLabel.text = person.phoneNumber
-        emailLabel.text = person.mail
+        phoneLabel.text = "phone: " + person.phoneNumber
+        emailLabel.text = "email: " + person.mail
         
         
     }
