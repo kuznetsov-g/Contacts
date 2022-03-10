@@ -23,7 +23,5 @@ class ContactsTabBar: UITabBarController {
         personVC.persons = persons
         detailsVC.persons = persons
     }
-    
-    
 
 }
